@@ -8,7 +8,7 @@
                     <!-- content inner -->
                     <div class="col-md-4"> 
                         <div class="anonymous">
-                            <img src="images/anonymous.png" title="anonymous" width="90%">
+                            <img src="/assets/images/anonymous.png" title="anonymous" width="90%">
                             <h3>
                                 JHON DOE
                             </h3>
@@ -20,7 +20,7 @@
                     </div>
                     <div class="col-md-4">  
                          <div class="anonymous">
-                            <img src="images/anonymous.png" title="anonymous" width="90%">
+                            <img src="/assets/images/anonymous.png" title="anonymous" width="90%">
                             <h3>
                                 NIKOLAI
                             </h3>
@@ -32,7 +32,7 @@
                     </div>
                     <div class="col-md-4">  
                         <div class="anonymous">
-                            <img src="images/anonymous.png" title="anonymous" width="90%">
+                            <img src="/assets/images/anonymous.png" title="anonymous" width="90%">
                             <h3>
                                 BRAD PITT
                             </h3>

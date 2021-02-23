@@ -56,7 +56,7 @@
                         </li>
                     <?php } else { ?>
                         <li>
-                            <a href="/action/logout">로그인</a>
+                            <a href="/action/logout">로그아웃</a>
                         </li>
                     <? } ?>
                         <li>
@@ -88,11 +88,11 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                         <a href="#" class="btn btn-common">SIGN UP</a>
                     </div>
-                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
-                    <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
-                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+                    <img src="/assets/images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                    <img src="/assets/images/home/slider/house.png" class="slider-house" alt="slider image">
+                    <img src="/assets/images/home/slider/sun.png" class="slider-sun" alt="slider image">
+                    <img src="/assets/images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                    <img src="/assets/images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
                 </div>
             </div>
         </div>

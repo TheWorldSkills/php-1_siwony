@@ -50,12 +50,13 @@
     function alert($msg=null, $url=null){
         echo "<script>";
         echo $msg ? "alert('{$msg}');" : "";
-        echo $url ? "documment.location.replace('{$url}')" : "history.back()";
+        echo $url ? "document.location.replace('{$url}')" : "history.back()";
         echo "</script>";
         exit;
     } 
 
     $member = isset($_SESSION["member"]) ? $_SESSION['member'] : null;
+
 
     if($pagemode == "action"){
         include "./lib/action.php";

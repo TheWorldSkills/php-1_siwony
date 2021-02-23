@@ -5,12 +5,17 @@
     $userpw = isset($_POST['password']) ? $_POST['password'] : null;
 
     $userInfo = $pdo -> query("select * from user where userid='{$userid}' and password='{$userpw}'")->fetch();
-    if(isset($_POST['login'])){
-        if($userInfo){
-            $_SESSION['member'] = $userInfo;
-            alert("로그인 성공");
-        }else{
-            alert("로그인 실패");
+
+    if($member){
+        alert("이미 로그인이 되어있습니다.", '/');
+    }else{
+        if(isset($_POST['login'])){
+            if($userInfo){
+                $_SESSION['member'] = $userInfo;
+                alert("로그인 성공", "/");
+            }else{
+                alert("로그인 실패");
+            }
         }
     }
 
